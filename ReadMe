@@ -1,0 +1,4 @@
+
+To make use of the IMDB datasets, we need to first parse and then merge them. For parsing, lots of resources are existed, and we use the parsers from "https://github.com/dedeler/imdb-data-parser" to parse the lists into several corresponding tsv files stored in List/, where we left a sample of tsv. And then, we use our scripts to merge all of them into one big dataset for the convenience of further analysis. The merger.py is for merge all the lists together except plots. And Actors/Actress_Genre.py are for getting the dataset about all the actors/actresses, as what genres have they acted in. And PlotsExtracter.py is to get the plots of the movies.
+
+For detail, please refer to the pdf file.
